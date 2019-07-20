@@ -57,15 +57,16 @@ public class AI extends Player {
 		 */
 		/* LOOK AT THE PLAYGOUND:
 		 *
-		 * for(Tile t : the_grid().get_tiles()){
-		 * }
-		 *
-		 * for(Player p : the_grid().players){
-		 * }
 		 *
 		 * Decision Tree/ Bayes / CSP/ A* making action decisions based on
 		 * game dynamics
 		 */
+		
+		 for(Tile t : the_grid().get_tiles()){
+		 }
+		 
+		 for(Player p : the_grid().players){
+		 }
 
 		build_unit(Unit.TYPE.WORKER);
 		build_unit(Unit.TYPE.WORKER);
